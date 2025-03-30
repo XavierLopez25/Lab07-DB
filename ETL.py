@@ -5,7 +5,7 @@ from pymongo import MongoClient
 # --- Extracción ---
 
 # Conexión a MongoDB Atlas (NoSQL)
-mongo_uri = "mongodb+srv://lop22716:1234@cluster0.mqducqk.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
+mongo_uri = "mongodb+srv://lop22716:xd@xd.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
 client = MongoClient(mongo_uri)
 db = client["lab07"]
 collection = db["paises_big_mac"]  # Nombre de la colección
